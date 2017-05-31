@@ -1,0 +1,166 @@
+body
+{
+    background-image: url(../imagenes/fondo3.jpg);
+    background-size: 100vw 100vh;
+    margin-top: 20px;
+    font-family: Algerian;
+    font-size: 14px;
+}
+
+header
+{
+    text-align: center;
+    color: dodgerblue;
+}
+
+.icon-phone:hover
+{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+.navbar
+{
+    border-radius: 16px;
+    margin-bottom: 40px;
+}
+
+.navbar-default
+{
+    background-color: dodgerblue;
+    border-color: lightsteelblue;
+}
+
+
+.navbar-nav > li
+{
+    padding-left: 28px;
+    padding-right: 15px;
+}
+
+
+.navbar-default .navbar-brand
+{
+    color: black;
+    size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+    color: white;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover
+{
+    color: red;
+    background-color: transparent;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next
+{
+    margin-top: -60px;
+    font-size: 80px;
+}
+
+
+
+
+/*ASIDE************************************************************************/
+#WidgetRedes
+{
+    position: fixed;
+    right: 0px;
+    padding-top: 70px;
+    padding-right: 5px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    float: left;
+}
+
+.icon
+{
+    text-decoration: none;
+    padding: 8px;
+    transition: all 500ms ease-in;
+    -webkit-transition: all 500ms ease-in;
+    -o-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+}
+
+.icon-facebook2
+{
+    color: white;
+    background: #3b5998;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.icon-instagram
+{
+    color: white;
+    background: #c752ad;
+    background: -moz-linear-gradient(top, #c752ad 0%, #d91cc3 38%, #dd6508 67%, #dd6508 95%, #dd6508 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #c752ad), color-stop(38%, #d91cc3), color-stop(67%, #dd6508), color-stop(95%, #dd6508), color-stop(100%, #dd6508));
+    background: -webkit-linear-gradient(top, #c752ad 0%, #d91cc3 38%, #dd6508 67%, #dd6508 95%, #dd6508 100%);
+    background: -o-linear-gradient(top, #c752ad 0%, #d91cc3 38%, #dd6508 67%, #dd6508 95%, #dd6508 100%);
+    background: -ms-linear-gradient(top, #c752ad 0%, #d91cc3 38%, #dd6508 67%, #dd6508 95%, #dd6508 100%);
+    background: linear-gradient(to bottom, #c752ad 0%, #d91cc3 38%, #dd6508 67%, #dd6508 95%, #dd6508 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c752ad', endColorstr='#dd6508', GradientType=0 );
+
+    border-radius: 25px 25px 25px 25px;
+}
+
+.icon-youtube
+{
+    color: white;
+    background: red;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.icon-facebook2:hover, .icon-instagram:hover, .icon-youtube:hover
+{
+    padding-right: 70px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+/******************************************************************************/
+
+
+
+hr
+{
+    margin-top: 60px;
+}
+
+.well
+{
+    padding: 10px;
+    background-color: dodgerblue;
+    border: 2px solid lightsteelblue;
+}
+
+footer h5
+{
+    font-size: 12px;
+}
+
+#footDe
+{
+    margin-top: 20px;
+}
+
+#footDe a
+{
+    color: white;
+    margin: 10px;
+    font-size: 14px;
+}
+
+#footDe a:hover
+{
+    color: black;
+}
