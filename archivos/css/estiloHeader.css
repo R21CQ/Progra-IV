@@ -1,0 +1,85 @@
+body
+{
+    background-image: url(../imagenes/fondo3.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    font-family: Algerian;
+}
+
+
+/*HEADER***********************************************************************/
+header
+{
+    text-align: center;
+    color: dodgerblue;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.img-thumbnail
+{
+    height: 115px;
+    padding: 2px;
+    line-height: 1.42857143;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    border-radius: 4px;
+}
+
+.icon-phone:hover
+{
+    color: red;
+    text-decoration: none;
+}
+/******************************************************************************/
+
+
+/*BARRA NAVEGACION*************************************************************/
+.navbar
+{
+    border-radius: 16px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.navbar-default
+{
+    background-color: dodgerblue;
+    border-color: lightsteelblue;
+}
+
+.navbar-nav > li
+{
+    padding-left: 28px;
+    padding-right: 15px;
+}
+
+.navbar-default .navbar-brand
+{
+    color: black;
+    size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+    color: white;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover
+{
+    color: red;
+    background-color: transparent;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover
+{
+    background-color: transparent;
+    color: dodgerblue;
+}
+
+/*Para el movil*/
+.navbar-toggle
+{
+    background-color: white;
+}
+/******************************************************************************/

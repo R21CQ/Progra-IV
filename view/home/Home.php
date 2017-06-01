@@ -1,3 +1,7 @@
+<!-- CSS ------------------------------------------------------------------- -->
+<link rel="stylesheet" href="archivos/css/estiloHome.css" type="text/css"/>
+
+
 
 <div class="col-md-12">
     <div id="carousel-1" class="carousel slide" data-ride="carousel">
@@ -41,10 +45,3 @@
         </a>
     </div>
 </div>
-
-
-<aside id="WidgetRedes">
-    <a title="Facebook" href="https://www.facebook.com/CicloTallerFrank2/?fref=ts" target=".blank" class="icon icon-facebook2"></a>
-    <a title="Instagram" href="frankliberia@hotmail.com" target=".blank" class="icon icon-instagram"></a>
-    <a title="Youtube" href="https://www.youtube.com/user/frankliberia" target=".blank" class="icon icon-youtube"></a>
-</aside>
