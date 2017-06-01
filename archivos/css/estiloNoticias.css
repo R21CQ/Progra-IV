@@ -1,0 +1,27 @@
+.carousel-inner > .item > img, .img-responsive
+{
+    height: 600px;
+}
+
+.col-md-5
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.col-md-5 h3
+{
+    font-size: 40px;
+    font-family: Algerian;
+    font-style: italic;
+    color: white;
+}
+
+.col-md-5 p
+{
+    font-size: 30px;
+    font-family: Arial;
+    font-style: oblique;
+    text-align: center;
+    color: dodgerblue;
+}
