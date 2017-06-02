@@ -17,7 +17,7 @@ function dibujarMapa()
       
     var map = new google.maps.Map(document.getElementById("map"), mapOptions);
     
-    var image = 'imagenes/frankicon.jpg';
+    var image = 'archivos/imagenes/frankicon.jpg';
     var marker = new google.maps.Marker({
                                             position: miLatLon,
                                             animation: google.maps.Animation.BOUNCE,
