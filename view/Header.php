@@ -62,7 +62,7 @@
                                     </ul>
                                 </li>  
                                 
-                                <li class="dropdown"><a href="?c=Contacto&a=Index" class="dropdown-toggle" data-toggle="dropdown" role="button">Contáctenos</a></li>
+                                <li class="dropdown"><a href="?c=Contacto&a=Index">Contáctenos</a></li>
 
                                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button">Noticias <span class="caret"></span></a> 
                                     <ul class="dropdown-menu">
@@ -70,7 +70,7 @@
                                     </ul>
                                 </li>                    
 
-                                <li class="dropdown"><a href="?c=Login&a=Index" class="dropdown-toggle" data-toggle="dropdown" role="button">Carrito</a></li>
+                                <li class="dropdown"><a href="?c=Login&a=Index">Carrito</a></li>
 
                                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button">Acerca de <span class="caret"></span></a>
                                     <ul class="dropdown-menu">

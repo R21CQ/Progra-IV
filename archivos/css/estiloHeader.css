@@ -65,16 +65,16 @@ header
     color: white;
 }
 
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a
+{
+    color: black;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
 {
     color: red;
     background-color: transparent;
-}
-
-.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover
-{
-    background-color: transparent;
-    color: dodgerblue;
 }
 
 /*Para el movil*/
