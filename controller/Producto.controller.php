@@ -44,12 +44,15 @@ class ProductoController{
         $alm = new Producto();
         
         $alm->idProducto = $_REQUEST['idProducto'];
-        //$imagen = $_FILES['imagen']['name'];
-        //$ruta = $_FILES['imagen']['temp-name'];
-        //$destino = "archivos/imagenes".$imagen;
-       //copy($ruta, $destino);
-        $img = addslashes(file_get_contents($_FILES['imagen'][['temp-name']]));
-        $alm->imagen = $img;
+        
+        $nombre = $_FILES['imagen']['name'];
+        $temp = $_FILES['imagen']['tmp_name'];
+        $folder = 'archivos/imagenes';
+        move_uploaded_file($temp, $folder.'/'.$nombre);
+        
+        $bytesFiles = file_get_contents($folder.'/'.$nombre);
+
+        $alm->imagen = $bytesFiles;
         $alm->tipoProducto = $_REQUEST['tipoProducto'];
         $alm->descripcion = $_REQUEST['descripcion'];
         $alm->precio = $_REQUEST['precio'];
