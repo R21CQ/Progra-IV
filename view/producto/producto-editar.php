@@ -1,4 +1,4 @@
-<h1 class="page-header">
+ <h1 class="page-header">
     <?php echo $alm->idProducto != null ? 'Editar Registro':'Nuevo Registro'; ?>
 </h1>
 
@@ -14,7 +14,7 @@
     </div>
     <div class="form-group">
         <label>Imagen: </label>
-        <input type="file" name="imagen" value="<?php echo $alm->imagen; ?>" data-validacion-tipo="requerido"/>
+        <input type="file" name="imagen" value="<?php echo $alm->imagen; ?>" data-validacion-tipo="requerido" accept="image/*"/>
     </div>
     
     <div class="form-group">
