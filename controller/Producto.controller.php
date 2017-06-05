@@ -45,14 +45,9 @@ class ProductoController{
         
         $alm->idProducto = $_REQUEST['idProducto'];
         
-        $nombre = $_FILES['imagen']['name'];
-        $temp = $_FILES['imagen']['tmp_name'];
-        $folder = 'archivos/imagenes';
-        move_uploaded_file($temp, $folder.'/'.$nombre);
-        
-        $bytesFiles = file_get_contents($folder.'/'.$nombre);
+        $temp = file_get_contents($_FILES['imagen']['tmp_name']);
 
-        $alm->imagen = $bytesFiles;
+        $alm->imagen = $temp;
         $alm->tipoProducto = $_REQUEST['tipoProducto'];
         $alm->descripcion = $_REQUEST['descripcion'];
         $alm->precio = $_REQUEST['precio'];
