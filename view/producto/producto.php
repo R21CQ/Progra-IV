@@ -28,9 +28,9 @@
             <?php foreach ($this->modelProd->Listar() as $r): ?>
                 <?php $valor = $r->idProducto; ?>
                 <tr>
-                    <td><input type=radio name=Producto value=<?php echo $r->idProducto; ?> ></td>
+                    <td><input type=radio name=idProducto value=<?php echo $r->idProducto; ?> ></td>
                     <td><?php echo $r->idProducto; ?></td>
-                    <td><img src="data:image/jpg; base64,<?php echo base64_encode($r->imagen); ?>"/></td>
+                    <td><img width="40" height="20" src="data:image/jpg; base64,<?php echo base64_encode($r->imagen); ?>"/></td>
                     <td><?php echo $r->tipoProducto == 1 ? 'Bicicletas' : 'Implementos'; ?></td>
                     <td><?php echo $r->descripcion; ?></td>
                     <td><?php echo $r->precio; ?></td>
