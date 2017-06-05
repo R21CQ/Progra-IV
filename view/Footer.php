@@ -21,6 +21,8 @@
                         <div id="footDe">
                             <a href="Index.php">Inicio</a>&nbsp&nbsp      <a href="localizacion.html">Localización</a>&nbsp&nbsp      <a href="contacto.html">Contáctenos</a>&nbsp&nbsp    <a href="noticias.html">Noticias</a>&nbsp&nbsp      <a href="acerca.html">Acerca de</a>
                         </div> 
+                        
+                        <h5>Este programa es para fines educativos y no tiene ningún fin comercial</h5>
                     </footer>                
                 </div>    
             </div>

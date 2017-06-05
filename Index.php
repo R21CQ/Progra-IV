@@ -26,4 +26,6 @@ else
     // Llama la accion
     call_user_func(array($controller, $accion));
 }
+
+echo '<script>alert("Este programa es para fines educativos y no tiene ningún fin comercial")</script>';
 ?>
