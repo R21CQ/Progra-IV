@@ -5,7 +5,7 @@
 
             <aside id="WidgetRedes">
                 <a title="Facebook" href="https://www.facebook.com/CicloTallerFrank2/?fref=ts" target=".blank" class="icon icon-facebook2"></a>
-                <a title="Instagram" href="frankliberia@hotmail.com" target=".blank" class="icon icon-instagram"></a>
+                <a title="Instagram" href="https://www.instagram.com/?hl=es" target=".blank" class="icon icon-instagram"></a>
                 <a title="Youtube" href="https://www.youtube.com/user/frankliberia" target=".blank" class="icon icon-youtube"></a>
             </aside>
 
