@@ -44,17 +44,22 @@ class ProductoController{
         $alm = new Producto();
         
         $alm->idProducto = $_REQUEST['idProducto'];
+
         
         $temp = file_get_contents($_FILES['imagen']['tmp_name']);
 
         $alm->imagen = $temp;
+
+        $foto = file_get_contents($_FILES['imagen']['tmp_name']);
+        $alm->imagen = $foto;
+        
         $alm->tipoProducto = $_REQUEST['tipoProducto'];
         $alm->descripcion = $_REQUEST['descripcion'];
         $alm->precio = $_REQUEST['precio'];
         
         $this->modelProd->Obtener($_REQUEST['idProducto'])?
-        $this->modelProd->Actualizar($alm):
-        $this->modelProd->Registrar($alm);
+                         $this->modelProd->Actualizar($alm):
+                         $this->modelProd->Registrar($alm);
               
         header('Location: Index.php');
     }
