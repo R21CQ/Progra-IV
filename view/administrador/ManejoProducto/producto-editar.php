@@ -10,7 +10,7 @@
 <form id="frm-alumno" action="?c=Producto&a=Guardar" method="post" enctype="multipart/form-data">
     <div class="form-group">
         <label>Codigo del Producto: </label>
-        <input name="idProducto" value="<?php echo $alm->idProducto; ?>" class="form-control has-success has-feedback" placeholder="Ingrese el codigo del producto" data-validacion-tipo="requerido"/>
+        <input name="idProducto" value="<?php echo $alm->idProducto; ?>" class="form-control" placeholder="Ingrese el codigo del producto" data-validacion-tipo="requerido"/>
     </div>
     <div class="form-group">
         <label>Imagen: </label>
@@ -27,7 +27,7 @@
     
     <div class="form-group">
         <label>Descripcion: </label>
-        <textarea type="" name="descripcion" value="<?php echo $alm->descripcion; ?>" class="form-control has-success has-feedback" placeholder="Ingrese la descripcion del producto" data-validacion-tipo="requerido"></textarea>
+        <textarea type="" name="descripcion" value="<?php echo $alm->descripcion; ?>" class="form-control" placeholder="Ingrese la descripcion del producto" data-validacion-tipo="requerido"></textarea>
     </div>
    
     <div class="form-group">
