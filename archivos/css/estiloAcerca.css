@@ -1,0 +1,26 @@
+h1
+{
+    color: dodgerblue;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 60px;
+}
+
+h3
+{
+    color: white;
+    text-align: justify;
+    font-family: Arial;
+}
+
+.col-md-4
+{
+    padding-top: 70px;
+    float: right;
+}
+
+.col-md-6
+{
+    padding-left: 40px;
+    padding-right: 40px;
+}

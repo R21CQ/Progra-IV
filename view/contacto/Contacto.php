@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="archivos/css/estiloContacto.css" type="text/css"/>
 
 <!-- SCRIPT ---------------------------------------------------------------- -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="archivos/js/catchaScript.js" type="text/javascript"></script>
 
 
@@ -86,25 +87,28 @@
                     <h1 class="page-header">Contáctenos</h1>
                 </div>
                 <div class="panel-body">
-                    <form action="?c=Login&a=Ingresar" method="post">
+                    <form action="enviarEmail.php" method="post">
                         <div class="form-group">
                             <label>Nombre Completo:</label>
                             <input type="text" class="form-control" placeholder="Ingrese su nombre completo" name="nombre" data-validacion-tipo="requerido|min:10" />
                         </div>
                         <div class="form-group">
                             <label>Correo Electronico:</label>
-                            <input type="text" class="form-control" placeholder="Ingrese su correo electronico" name="nombre" data-validacion-tipo="requerido|email" />
+                            <input type="text" class="form-control" placeholder="Ingrese su correo electronico" name="email" data-validacion-tipo="requerido|email" />
                         </div>
                         <div class="form-group">
                             <label>Numero de Telefono:</label>
-                            <input type="text" class="form-control" placeholder="Ingrese su telefono" name="nombre" data-validacion-tipo="requerido|min:8" />
+                            <input type="text" class="form-control" placeholder="Ingrese su telefono" name="telefono" data-validacion-tipo="requerido|min:8" />
                         </div>
                         <div class="form-group">
                             <label>Consulta:</label>
-                            <textarea type="text" class="form-control" placeholder="Ingrese su comentario" name="nombre" data-validacion-tipo="requerido"></textarea>
+                            <textarea type="text" class="form-control" placeholder="Ingrese su comentario" name="consulta" data-validacion-tipo="requerido"></textarea>
                         </div>
 
-                        <div class="form-group" id="catcha_elemento">
+                        <!--<div id="catcha_elemento">                            
+                        </div>-->
+                        
+                        <div id="catcha_elemento">
                             
                         </div>
                         
@@ -112,9 +116,10 @@
                             <button class="btn btn-info btn-lg btn-block">Enviar</button>
                         </div>
                     </form>
+
                 </div>
             </div>
-            <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+           <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
         </div>
     </div>
 </div>
