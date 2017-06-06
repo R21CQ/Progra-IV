@@ -6,9 +6,8 @@
 
 #cajaArticulos
 {    
-    padding: 5px;
     background-color: dodgerblue;
-    border: solid 1px black;
+    border: solid 1px white;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -18,9 +17,4 @@
 {    
     width: 100px;
     height: 100px;
-}
-
-.col-md-12
-{
-    background: white;
 }

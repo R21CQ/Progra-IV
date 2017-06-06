@@ -1,38 +1,35 @@
-<link rel="stylesheet" href="archivos/css/estiloCajas.css" type="text/css"/>
+<!-- CSS -->
+<link rel="stylesheet" href="archivos/css/estiloArticulo.css" type="text/css"/>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+
+
 <h1 class="page-header">Articulos</h1>
 
+<?php foreach ($this->modelArticulo->Listar() as $r):
+    ?>
 
+    <div class="col-md-3">
+        <div id="cajaArticulos" class="text-center">
+            <?php $valor = $r->idProducto; ?>
 
-    <?php foreach ($this->modelArticulo->Listar() as $r):
-        ?>
+            <img class="img-responsive center-block" id="tamanoImagen" src="data:image/jpg; base64,<?php echo base64_encode($r->imagen); ?>"/>
 
+            <label name="descripcion">Descripcion: <?php echo $r->descripcion; ?></label>
+            <br>
+            <label name="idProducto"> Producto: <?php echo $r->idProducto; ?></label>
+            <br>
+            <label name="clase"> Clase: <?php echo $r->tipoProducto == 1 ? 'Bicicletas' : 'Implementos'; ?></label>
+            <br>
+            <label name="precio"> Precio: <?php echo $r->precio; ?></label><br>
 
-        <div class="col-xs-6 col-sm-3 col-md-3">
-            
-            
-            <div class="thumbnail">
-                
-                <div class="caption">
+            <a href="#" class="btn btn-default producto" precio="<?php echo $r->precio; ?>" titulo="<?php echo $r->descripcion; ?>" role="button">Comprar</a></p>
 
-                    <?php $valor = $r->idProducto; ?>
-
-                    <img id="tamanoImagen" src="data:image/jpg; base64,<?php echo base64_encode($r->imagen); ?>"/>
-                    
-                    <label name="descripcion">Descripcion: <?php echo $r->descripcion; ?></label>
-                    <br>
-                    <label name="idProducto"> Producto: <?php echo $r->idProducto; ?></label>
-                    <br>
-                    <label name="clase"> Clase: <?php echo $r->tipoProducto == 1 ? 'Bicicletas' : 'Implementos'; ?></label>
-                    <br>
-                    <label name="precio"> Precio: <?php echo $r->precio; ?></label>
-
-                    <a href="#" class="btn btn-default producto" precio="<?php echo $r->precio; ?>" titulo="<?php echo $r->descripcion; ?>" role="button">Comprar</a></p>
-                </div>
-</div>
         </div>
-            
-        <?php endforeach; ?> 
+
+    </div>
+
+<?php endforeach; ?> 
 
 <script src="archivos/js/minicart.js"></script>
 <script>
@@ -53,7 +50,7 @@
             business: 'maikel.chavarriaalvarado@gmail.com', // Cuenta paypal para recibir el dinero
             item_name: $(this).attr("titulo"),
             amount: $(this).attr("precio"),
-            currency_code: 'USD',
+            currency_code: 'CRC'
         });
     });
 
