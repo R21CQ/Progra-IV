@@ -17,3 +17,18 @@
     width: 100px;
     height: 100px;
 }
+
+#PPMiniCart form
+{
+    width: 500px;
+}
+
+#PPMiniCart ul
+{
+    width: 480px;
+}
+
+#PPMiniCart .minicart-details-name
+{
+    width: 58%;
+}
