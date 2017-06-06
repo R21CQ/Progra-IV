@@ -1,0 +1,26 @@
+.page-header
+{
+    color: white;
+    margin-top: 70px;
+}
+
+#cajaArticulos
+{    
+    padding: 5px;
+    background-color: dodgerblue;
+    border: solid 1px black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+#tamanoImagen
+{    
+    width: 100px;
+    height: 100px;
+}
+
+.col-md-12
+{
+    background: white;
+}
