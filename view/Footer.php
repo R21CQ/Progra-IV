@@ -19,7 +19,7 @@
                         </h5>
                         
                         <div id="footDe">
-                            <a href="Index.php">Inicio</a>&nbsp&nbsp      <a href="localizacion.html">Localización</a>&nbsp&nbsp      <a href="contacto.html">Contáctenos</a>&nbsp&nbsp    <a href="noticias.html">Noticias</a>&nbsp&nbsp      <a href="acerca.html">Acerca de</a>
+                            <a href="Index.php">Inicio</a>&nbsp&nbsp      <a href="localizacion.html">Localización</a>&nbsp&nbsp      <a href="contacto.html">Contáctenos</a>&nbsp&nbsp    <a href="noticias.html">Noticias</a>&nbsp&nbsp      <a href="acerca.html">Acerca de</a>&nbsp&nbsp       <a class="icon icon-user" href="?c=HomeMantenimiento&a=Index"></a>
                         </div> 
                         
                         <h5>Este programa es para fines educativos y no tiene ningún fin comercial</h5>
