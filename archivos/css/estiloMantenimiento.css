@@ -1,0 +1,25 @@
+.titulo{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#imgMant{
+    width: 1200px;
+    height: 300px;
+}
+
+#mantImg{
+    
+    width: 250px;
+    height: 200px;
+    margin-top: 40px;    
+}
+
+#parrafo{
+    text-align: justify;
+    color: dodgerblue;
+    font-size: 28px;
+    margin-top: 40px;
+    font-family: arial;
+}

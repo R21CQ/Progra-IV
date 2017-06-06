@@ -11,8 +11,8 @@ class ProductoController{
     }
     
     public function Index(){
-        require_once 'view/Header.php';
-        require_once 'view/producto/producto.php';
+        require_once 'view/HeaderAdmin.php';
+        require_once 'view/administrador/ManejoProducto/producto.php';
         require_once 'view/Footer.php';
     }
     
@@ -23,9 +23,8 @@ class ProductoController{
             $alm = $this->modelProd->Obtener($_REQUEST['idProducto']);
         }
         
-        require_once 'view/Header.php';
-        require_once 'view/producto/producto-editar.php';
-        require_once 'view/Footer.php';
+        require_once 'view/HeaderAdmin.php';
+        require_once 'view/administrador/ManejoProducto/producto-editar.php';
     }
     
     public function Registrar(){
@@ -35,9 +34,8 @@ class ProductoController{
             $alm = $this->modelProd->Obtener($_REQUEST['idProducto']);
         }
         
-        require_once 'view/Header.php';
-        require_once 'view/producto/producto-editar.php';
-        require_once 'view/Footer.php';
+        require_once 'view/HeaderAdmin.php';
+        require_once 'view/administrador/ManejoProducto/producto-editar.php';
     }
     
     public function Guardar(){

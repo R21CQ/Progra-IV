@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html lang="es">
     
     <head>
@@ -44,39 +42,13 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a href="Index.php" class="navbar-brand">CicloFrank</a>
+                            <a href="?c=Mantenimiento&a=Index" class="navbar-brand">CicloFrank</a>
                         </div>
                         <div class="collapse navbar-collapse" id="navbar-1">
                             <ul class="nav navbar-nav">
-                                <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button">Productos <span class="caret"></span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="?c=Articulo&a=Index">Articulos</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button">Localización <span class="caret"></span></a> 
-                                    <ul class="dropdown-menu">
-                                        <li><a href="?c=Localizacion&a=Index">Nuestra Localización</a></li>
-                                    </ul>
-                                </li>  
-                                
-                                <li class="dropdown"><a href="?c=Contacto&a=Index">Contáctenos</a></li>
-
-                                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button">Noticias <span class="caret"></span></a> 
-                                    <ul class="dropdown-menu">
-                                        <li><a href="?c=Noticias&a=Index">Próximos Eventos</a></li>
-                                    </ul>
-                                </li>                    
-
-                                <li class="dropdown"><a href="?c=Login&a=Index">Carrito</a></li>
-
-                                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button">Acerca de <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="?c=Acerca&a=Index">Misión, Visión</a></li>
-                                    </ul>
-                                </li>
+                                <li class="dropdown"><a href="?c=Producto&a=Index">Manejo de Producto</a></li> 
+                                <li class="dropdown"><a href="?c=Clientes&a=Index">Ver Clientes</a></li>
+                                <li class="dropdown"><a href="">Inventario</a></li>
                             </ul>
                         </div>
                     </div>

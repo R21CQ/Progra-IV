@@ -16,18 +16,6 @@ class LoginController{
         require_once 'view/Footer.php';
     }
     
-    public function Editar(){
-        $alm = new Login();
-        
-        if(isset($_REQUEST['idClient'])){
-            $alm = $this->modelLogin->Obtener($_REQUEST['idClient']);
-        }
-        
-        require_once 'view/Header.php';
-        require_once 'view/cliente/Login.php';
-        require_once 'view/Footer.php';
-    }
-    
     public function Registrar(){
         $alm = new Login();
         
@@ -58,11 +46,6 @@ class LoginController{
         $this->modelLogin->Actualizar($alm):
         $this->modelLogin->Registrar($alm);
               
-        header('Location: Index.php');
-    }
-    
-    public function Eliminar(){
-        $this->modelLogin->Eliminar($_REQUEST['idClient']);
         header('Location: Index.php');
     }
     
