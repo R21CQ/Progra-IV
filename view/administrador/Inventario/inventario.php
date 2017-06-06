@@ -16,24 +16,22 @@
     <table id="tabla" class="table table-striped">
         <thead>
             <tr>
-                <th style="width:70px;"></th>
-                <th style="width:220px;">Id Producto</th>
-                <th style="width:220px;">Imagen</th>
-                <th style="width:220px;">Tipo de Producto</th>
-                <th style="width:250px;">Descripcion</th>
-                <th style="width:220px;">Precio</th>
+                <th style="width:80px;"></th>
+                <th style="width:280px;">Id Inventario</th>
+                <th style="width:280px;">Producto</th>
+                <th style="width:280px;">Ciclo</th>
+                <th style="width:280px;">Existencias</th>
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($this->modelProd->Listar() as $r): ?>
-                <?php $valor = $r->idProducto; ?>
+            <?php foreach ($this->modelInventario->Listar() as $r): ?>
+                <?php $valor = $r->idInventario; ?>
                 <tr>
-                    <td><input type=radio name=idProducto value=<?php echo $r->idProducto; ?> ></td>
-                    <td><?php echo $r->idProducto; ?></td>
-                    <td><img width="40" height="40" src="data:image/jpg; base64,<?php echo base64_encode($r->imagen); ?>"/></td>
-                    <td><?php echo $r->tipoProducto == 1 ? 'Bicicletas' : 'Implementos'; ?></td>
-                    <td><?php echo $r->descripcion; ?></td>
-                    <td><?php echo $r->precio; ?></td>
+                    <td><input type=radio name=idInventario value=<?php echo $r->idInventario; ?> ></td>
+                    <td><?php echo $r->idInventario; ?></td>
+                    <td><?php echo $r->producto == 1 ? 'Bicicletas' : 'Implementos'; ?></td>
+                    <td><?php echo $r->ciclo; ?></td>
+                    <td><?php echo $r->existencias; ?></td>
                 </tr>
             <?php endforeach; ?>
         <script src="archivos/js/buscador.js"></script>

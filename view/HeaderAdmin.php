@@ -49,6 +49,7 @@
                                 <li class="dropdown"><a href="?c=Producto&a=Index">Manejo de Producto</a></li> 
                                 <li class="dropdown"><a href="?c=Clientes&a=Index">Ver Clientes</a></li>
                                 <li class="dropdown"><a href="">Inventario</a></li>
+                                <li class="dropdown"><a href="?c=Ciclo&a=Index">Ciclo</a></li>
                             </ul>
                         </div>
                     </div>
