@@ -1,9 +1,11 @@
 h1
 {
-    color: dodgerblue;
+    color: lightseagreen;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 30px;
     font-size: 60px;
+    font-family: Algerian;
+    font-style: italic;
 }
 
 h3
@@ -15,22 +17,27 @@ h3
 
 .col-md-4
 {
-    padding-top: 70px;
+    padding-top: 20px;
     float: right;
 }
 
-.col-md-6
+.col-md-12
 {
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-.col-md-8
-{
-    padding-left: 80px;
+    margin-top: 40px;
 }
 
 #descripcion
 {
     background-color: white;
+    padding-bottom: 20px;
+}
+
+#descripcion h3
+{
+    color: dodgerblue;
+}
+
+#idMision h3
+{
+    margin-top: 40px;
 }
