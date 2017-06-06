@@ -11,7 +11,7 @@ class ProductoController{
     }
     
     public function Index(){
-        require_once 'view/HeaderAdmin.php';
+        require_once 'view/HeaderMantenimiento.php';
         require_once 'view/administrador/ManejoProducto/producto.php';
         require_once 'view/Footer.php';
     }
@@ -21,7 +21,7 @@ class ProductoController{
         
         if(isset($_REQUEST['idProducto'])){
             $alm = $this->modelProd->Obtener($_REQUEST['idProducto']);
-            require_once 'view/HeaderAdmin.php';
+            require_once 'view/HeaderMantenimiento.php';
             require_once 'view/administrador/ManejoProducto/producto-editar.php';
         }
         else {
@@ -37,7 +37,7 @@ class ProductoController{
             $alm = $this->modelProd->Obtener($_REQUEST['idProducto']);
         }
         
-        require_once 'view/HeaderAdmin.php';
+        require_once 'view/HeaderMantenimiento.php';
         require_once 'view/administrador/ManejoProducto/producto-editar.php';
     }
     

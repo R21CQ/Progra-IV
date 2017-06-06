@@ -60,7 +60,10 @@ class LoginController {
         }
 
         if ($alm != NULL) {
-            header('Location: Index.php');
+            if ($alm->nomUsuario = 'administrador') {
+                echo "<script>location.href='?c=HomeMantenimiento&a=Index'</script>";
+            }
+            else "<script>location.href='?c=Articulo&a=Index'</script>";
         } else {
             echo '<script>alert("ERROR DE AUTENTICACION")</script>';
             echo "<script>location.href='?c=Inicio&a=Index'</script>";

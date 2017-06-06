@@ -44,12 +44,12 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a href="?c=Mantenimiento&a=Index" class="navbar-brand">CicloFrank</a>
+                            <a href="?c=HomeMantenimiento&a=Index" class="navbar-brand">CicloFrank</a>
                         </div>
                         <div class="collapse navbar-collapse" id="navbar-1">
                             <ul class="nav navbar-nav">
                                 <li class="dropdown"><a href="?c=Producto&a=Index">Manejo de Producto</a></li> 
-                                <li class="dropdown"><a href="?c=Clientes&a=Index">Ver Clientes</a></li>
+                                <li class="dropdown"><a href="?c=ClienteMantenimiento&a=Index">Ver Clientes</a></li>
                                 <li class="dropdown"><a href="">Inventario</a></li>
                                 <li class="dropdown"><a href="?c=Ciclo&a=Index">Ciclo</a></li>
                             </ul>

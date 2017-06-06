@@ -11,7 +11,7 @@ class CicloController{
     }
     
     public function Index(){
-        require_once 'view/HeaderAdmin.php';
+        require_once 'view/HeaderMantenimiento.php';
         require_once 'view/administrador/Ciclo/Ciclo.php';
     }
 }

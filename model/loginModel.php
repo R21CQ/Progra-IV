@@ -27,7 +27,7 @@ class Login {
         try {
             $result = array();
 
-            $stm = $this->pdo->prepare("SELECT * FROM cliente");
+            $stm = $this->pdo->prepare("SELECT * FROM cliente where nomUsuario != 'administrador'");
             $stm->execute();
 
             return $stm->fetchAll(PDO::FETCH_OBJ);

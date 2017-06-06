@@ -1,5 +1,5 @@
 <h1 class="page-header">Clientes</h1>
-<form action="?c=Cliente" method="post">
+<form action="?c=ClienteMantenimiento" method="post">
 
     <div class="well well-sm text-right">
 
