@@ -26,10 +26,10 @@
                 <h1 class="page-header text-center">Registrarse</h1>
             </div>
             <div class="panel-body">
-                <form id="frm-login" action="?c=Login&a=Registrar" method="post" enctype="multipart/form-data">
+                <form id="frm-login" action="?c=Login&a=Guardar" method="post" >
                     <div class="form-group">
                         <label>Cedula Cliente: </label>
-                        <input type="text" name="idClient" class="form-control" placeholder="Numero de cedula" data-validacion-tipo="requerido|min:9" />
+                        <input type="text" name="idCliente" class="form-control" placeholder="Numero de cedula" data-validacion-tipo="requerido|min:9" />
                     </div>
                     <div class="form-group">
                         <label>Nombre Completo: </label>
@@ -38,7 +38,7 @@
 
                     <div class="form-group">
                         <label>Email: </label>
-                        <input type="text" name="correo" class="form-control" placeholder="Ingrese su correo electrónico" data-validacion-tipo="requerido|email" />
+                        <input type="text" name="email" class="form-control" placeholder="Ingrese su correo electrónico" data-validacion-tipo="requerido" />
                     </div>
 
                     <div class="form-group">
@@ -58,7 +58,7 @@
 
                     <div class="form-group">
                         <label>Sexo: </label>
-                        <select name="Sexo" class="form-control">
+                        <select name="sexo" class="form-control">
                             <option value="1">Masculino</option>
                             <option value="2">Femenino</option>
                         </select>

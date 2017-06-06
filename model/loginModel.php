@@ -3,16 +3,16 @@
 class Login {
 
     private $pdo;
-    private $idCliente;
-    private $nombre;
-    private $email;
-    private $telefono;
-    private $nomUsuario;
-    private $contrasena;
-    private $sexo;
-    private $provincia;
-    private $canton;
-    private $dirExacta;
+    public $idCliente;
+    public $nombre;
+    public $email;
+    public $telefono;
+    public $nomUsuario;
+    public $contrasena;
+    public $sexo;
+    public $provincia;
+    public $canton;
+    public $dirExacta;
     
 
     public function __CONSTRUCT() {
@@ -74,6 +74,19 @@ class Login {
         try {
             $sql = "INSERT INTO cliente (idCliente,nombre,email,telefono,nomUsuario,contrasena,sexo,provincia,canton,dirExacta) 
 		        VALUES (?, ?, ?, ?, ?,?, ?, ?, ?, ?)";
+
+            $this->pdo->prepare($sql)
+                    ->execute(array($data->idCliente,$data->nombre,$data->email,$data->telefono,$data->nomUsuario,$data->contrasena,$data->sexo,$data->provincia,$data->canton,$data->dirExacta)
+            );
+        } catch (Exception $e) {
+            die($e->getMessage());
+        }
+    }
+    
+    public function Guardar(Login $data) {
+        try {
+            $sql = "INSERT INTO cliente (idCliente, nombre, email, telefono, nomUsuario, contrasena, sexo, provincia, canton, dirExacta) 
+		        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
             $this->pdo->prepare($sql)
                     ->execute(array($data->idCliente,$data->nombre,$data->email,$data->telefono,$data->nomUsuario,$data->contrasena,$data->sexo,$data->provincia,$data->canton,$data->dirExacta)
