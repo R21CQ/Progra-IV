@@ -6,12 +6,11 @@
 
 #cajaArticulos
 {    
-    background-color: dodgerblue;
-    border: solid 1px white;
+    background-color: white;
+    border: solid 3px dodgerblue;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-
 
 #tamanoImagen
 {    
