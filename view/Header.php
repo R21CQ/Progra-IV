@@ -70,7 +70,7 @@
                                     </ul>
                                 </li>                    
 
-                                <li class="dropdown"><a href="?c=Login&a=Index">Registrarse</a></li>
+                                <li class="dropdown"><a href="?c=Login&a=Index">Registro</a></li>
 
                                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button">Acerca de <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
