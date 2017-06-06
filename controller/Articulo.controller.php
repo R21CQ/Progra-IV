@@ -16,16 +16,5 @@ class ArticuloController{
         require_once 'view/Footer.php';
     }
     
-    public function Agregar(){
-        $alm = new carritoCompras();
-        
-        if(isset($_REQUEST['idProducto'])){
-            $alm = $this->modelProd->Obtener($_REQUEST['idProducto']);
-        }
-        
-        require_once 'view/Header.php';
-        require_once 'view/producto/carrito.php';
-        require_once 'view/Footer.php';
-    }
     
 }
