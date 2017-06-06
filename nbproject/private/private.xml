@@ -3,11 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/Progra-IV/Progra-IV/controller/Producto.controller.php</file>
-            <file>file:/C:/xampp/htdocs/Progra-IV/Progra-IV/Index.php</file>
-            <file>file:/C:/xampp/htdocs/Progra-IV/Progra-IV/.gitignore</file>
-            <file>file:/C:/xampp/htdocs/Progra-IV/Progra-IV/controller/Login.controller.php</file>
-            <file>file:/C:/xampp/htdocs/Progra-IV/Progra-IV/view/cliente/Login.php</file>
+            <file>file:/C:/xampp/htdocs/Progra-IV/model/loginModel.php</file>
+            <file>file:/C:/xampp/htdocs/Progra-IV/view/HeaderMantenimiento.php</file>
         </group>
     </open-files>
 </project-private>

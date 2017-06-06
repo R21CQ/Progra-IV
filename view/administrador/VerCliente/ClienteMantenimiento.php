@@ -37,9 +37,9 @@
                     <td><?php echo $r->nomUsuario; ?></td>
                     <td><?php echo $r->sexo == 1 ? 'Masculino' : 'Femenino'; ?></td>
                     <td><?php if($r->provincia == 1){ echo 'Guanacaste' ;}else if ($r->provincia == 2) {echo 'Puntarenas' ;}
-                    else if ($r->provincia == 2) {echo 'San José' ;}else if ($r->provincia == 2) {echo 'Cartago' ;}
-                    else if ($r->provincia == 2) {echo 'Heredia' ;}else if ($r->provincia == 2) {echo 'Alajuela' ;}
-                    else{echo 'Limón' ;}
+                    else if ($r->provincia == 3) {echo 'San José' ;}else if ($r->provincia == 4) {echo 'Cartago' ;}
+                    else if ($r->provincia == 5) {echo 'Heredia' ;}else if ($r->provincia == 6) {echo 'Alajuela' ;}
+                    else {echo 'Limón' ;}
                     ?></td>
                     <td><?php echo $r->canton; ?></td>
                     <td><?php echo $r->dirExacta; ?></td>
