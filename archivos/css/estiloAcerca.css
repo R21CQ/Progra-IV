@@ -24,3 +24,13 @@ h3
     padding-left: 40px;
     padding-right: 40px;
 }
+
+.col-md-8
+{
+    padding-left: 80px;
+}
+
+#descripcion
+{
+    background-color: white;
+}
