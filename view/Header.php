@@ -52,7 +52,8 @@
                                     <a class="dropdown-toggle" data-toggle="dropdown" role="button">Productos <span class="caret"></span>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="?c=Producto&a=Index">Nuestros Articulos</a></li>
+                                        <li><a href="?c=Producto&a=Index">Registrar Articulos</a></li>
+                                        <li><a href="?c=Articulo&a=Index">Articulos</a></li>
                                     </ul>
                                 </li>
 
