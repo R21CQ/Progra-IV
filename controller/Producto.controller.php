@@ -21,10 +21,13 @@ class ProductoController{
         
         if(isset($_REQUEST['idProducto'])){
             $alm = $this->modelProd->Obtener($_REQUEST['idProducto']);
+            require_once 'view/HeaderAdmin.php';
+            require_once 'view/administrador/ManejoProducto/producto-editar.php';
         }
-        
-        require_once 'view/HeaderAdmin.php';
-        require_once 'view/administrador/ManejoProducto/producto-editar.php';
+        else {
+            echo '<script>alert("Debe seleccionar un Producto")</script>';
+            echo '<script>location.href="?cProducto&a=Index"</script>';
+        }
     }
     
     public function Registrar(){
